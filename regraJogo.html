@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regra do Jogo</title>
+  <link rel="stylesheet" href="./css/regras.css" />
+  <script>
+    function voltarTela() {
+        window.location.href = 'index.html';
+    }
+</script>
+</head>
+
+<body>
+  <!-- Texto -->
+   <div>
+   <button 
+   onclick="voltarTela()" 
+   style="
+   background-color: #4682b4;
+   color:#fff;
+    width: 150px;
+    height: 60px;
+    height: 60;
+    border-radius: 50px;
+    cursor:pointer;
+    border: none;
+    "
+      > Voltar para Home </button>
+      
+  <div class="div_regras">
+    <div class="div_app">
+      <div>
+        <h2 style="
+                text-align: start;
+                color: #4682b4;
+                cursor: default;
+              ">
+          Regras Básicas
+        </h2>
+        <p style="text-align: start; color: #4682b4; cursor: default">
+          Adivinhar o personagem de um adversário: Usar uma carta com uma habilidade de adivinhação, tentando descobrir
+          qual personagem um oponente tem.
+        </p>
+      </div>
+    </div>
+
+    <div class="div_conteudos">
+      <div>
+        <ul>
+          <h4>Distribuição das Cartas:</h4>
+          <li>
+            O baralho contém cartas dos 15 personagens listados (divididos entre Normais, Especiais e Suportes).
+          </li>
+          <li>Cada jogador recebe 5 cartas no início do jogo.</li>
+          <li>As cartas restantes formam o baralho de compra. </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h4>Objetivo do Jogo:</h4>
+          <li>
+            Acumular 10 pontos ao longo do jogo.
+          </li>
+          <li>Ou, eliminar outros jogadores, removendo suas cartas por adivinhação ou pelo uso de habilidades especiais.
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <h4>Turno:</h4>
+          <li>Em cada turno, o jogador pode fazer uma das três ações: </li>
+          <li>Jogar uma carta: Colocar uma carta na mesa, ou usá-la em outro jogador.</li>
+          <li>Usar a habilidade de uma carta: Ativar uma habilidade especial ou de suporte de uma carta que já tenha
+            sido jogada.</li>
+          <li>Adivinhar o personagem de um adversário: Usar uma carta com uma habilidade de adivinhação, tentando
+            descobrir qual personagem um oponente tem.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="div_regras">
+    <div class="div_app">
+      <div>
+        <h2 style="
+              text-align: start;
+              color: #4682b4;
+              cursor: default;
+            ">
+          Informações do Jogo
+        </h2>
+        <p style="text-align: start; color: #4682b4; cursor: default">
+          Os jogadores competem para ser o primeiro a acumular 10 pontos ou eliminar todos os outros jogadores, usando
+          cartas de personagens e habilidades especiais.
+      </div>
+    </div>
+
+    <div class="div_conteudos">
+      <div>
+        <ul>
+          <h4>Cartas do Jogo:</h4>
+          <li>As cartas do jogo são divididas em três categorias:</li>
+          <li>
+            Normais (personagens com habilidades padrão)
+          </li>
+          <li>Especiais (personagens com habilidades poderosas e únicas)</li>
+          <li>Suportes (cartas que ajudam a proteger ou modificar a jogada de outros personagens)</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h4>Cada carta tem as seguintes informações:</h4>
+          <li>
+            Nome do Personagem: Nome da figura histórica ou científica.
+          </li>
+          <li>Valor (1 a 5): Um valor de 1 a 5 que define o poder da carta.</li>
+          <li>Data de Nascimento: Esta informação pode ser usada nas regras de adivinhação, além de ser um dado
+            importante para estratégias no jogo.</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <h4>Tipos de Cartas:</h4>
+          <li>Cartas com valor <strong> 1 </strong> "Cálculos Espaciais": Proteja uma carta sua de ser descartada ou
+            roubada por um oponente.</li>
+          <li>Cartas com valor <strong> 2 </strong> "Radiação": Troque uma carta de sua mão com um jogador à sua
+            escolha.</li>
+          <li>Cartas com valor <strong> 3 </strong> "Radiação": Troque uma carta de sua mão com um jogador à sua
+            escolha.</li>
+          <li>Cartas com valor <strong> 4 </strong> "Quebra-código": Olhe a mão de um jogador à sua escolha e escolha
+            uma carta para descartar.</li>
+          <li>Cartas com valor <strong> 5 </strong> "Relatividade": Escolha uma carta do baralho de compra e adicione
+            seu valor ao seu total de pontos.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="div_regras">
+    <div class="div_app">
+      <div>
+        <h2 style="
+              text-align: start;
+              color: #4682b4;
+              cursor: default;
+            ">
+          Informações do Jogo
+        </h2>
+        <p style="text-align: start; color: #4682b4; cursor: default">
+          Os jogadores competem para ser o primeiro a acumular 10 pontos ou eliminar todos os outros jogadores, usando
+          cartas de personagens e habilidades especiais.
+      </div>
+    </div>
+
+    <div class="div_conteudos">
+      <div>
+        <ul>
+          <h4>Cartas do Jogo:</h4>
+          <li>As cartas do jogo são divididas em três categorias:</li>
+          <li>
+            Normais (personagens com habilidades padrão)
+          </li>
+          <li>Especiais (personagens com habilidades poderosas e únicas)</li>
+          <li>Suportes (cartas que ajudam a proteger ou modificar a jogada de outros personagens)</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h4>Cada carta tem as seguintes informações:</h4>
+          <li>
+            Nome do Personagem: Nome da figura histórica ou científica.
+          </li>
+          <li>Valor (1 a 5): Um valor de 1 a 5 que define o poder da carta.</li>
+          <li>Data de Nascimento: Esta informação pode ser usada nas regras de adivinhação, além de ser um dado
+            importante para estratégias no jogo.</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <h4>Tipos de Cartas:</h4>
+          <li>Cartas com valor <strong> 1 </strong> "Cálculos Espaciais": Proteja uma carta sua de ser descartada ou
+            roubada por um oponente.</li>
+          <li>Cartas com valor <strong> 2 </strong> "Radiação": Troque uma carta de sua mão com um jogador à sua
+            escolha.</li>
+          <li>Cartas com valor <strong> 3 </strong> "Radiação": Troque uma carta de sua mão com um jogador à sua
+            escolha.</li>
+          <li>Cartas com valor <strong> 4 </strong> "Quebra-código": Olhe a mão de um jogador à sua escolha e escolha
+            uma carta para descartar.</li>
+          <li>Cartas com valor <strong> 5 </strong> "Relatividade": Escolha uma carta do baralho de compra e adicione
+            seu valor ao seu total de pontos.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="div_regras">
+    <div class="div_app">
+      <div>
+        <h2 style="
+              text-align: start;
+              color: #4682b4;
+              cursor: default;
+            ">
+          Adivinhação de Personagem
+        </h2>
+        <p style="text-align: start; color: #4682b4; cursor: default">
+          A adivinhação de personagens é um elemento central do jogo. Jogadores podem tentar adivinhar a identidade do
+          personagem de outro jogador em certos momentos.
+      </div>
+    </div>
+    <div class="div_conteudos">
+      <div>
+        <ul>
+          <h4>Como funciona:</h4>
+          <li>Durante o turno de um jogador, ele pode usar uma habilidade de adivinhação de uma carta, ou, quando não
+            há habilidade específica, ele pode fazer uma aposta</li>
+          <li>
+            Para adivinhar, o jogador escolhe um oponente e tenta adivinhar o valor ou a data de nascimento do
+            personagem que esse oponente está segurando.
+            Se a adivinhação estiver correta, o oponente perde a carta e o jogador que adivinhou corretamente recebe 1
+            ponto. Caso contrário, o jogador que fez a adivinhação perde 1 ponto
+          </li>
+          <li><strong>Exemplo:</strong></li>
+          <li>o Jogador A tem Simone de Beauvoir (valor 3) em sua mão</li>
+          <li>o Jogador B faz uma adivinhação e diz: "Você tem uma carta de valor 3".</li>
+          <li>o Se estiver correto, o jogador A perde a carta e o jogador B ganha 1 ponto.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="div_regras">
+    <div class="div_app">
+      <div>
+        <h2 style="
+              text-align: start;
+              color: #b45746;
+              cursor: default;
+            ">
+          Bibliotecas usadas para criação das regras desse jogo!
+        </h2>
+        <p style="text-align: start; color: #000000; cursor: default; font-weight: 700;">
+          • Coup: No jogo Coup, o objetivo é eliminar os outros jogadores através de blefes e afirmações falsas sobre
+          suas cartas. Na regra para esse jogo, essa mecânica é aplicada por meio de adivinhações e habilidades
+          especiais. Os
+          jogadores podem tentar fazer bluff sobre o valor ou a identidade de suas cartas, e se alguém errar uma
+          adivinhação, perderá pontos ou cartas.
+        </p>
+        <a href="https://www.fclar.unesp.br/Home/Biblioteca/jogos-coup-manual.pdf" target="_blank">Jogo Coup</a>
+
+        <p style="text-align: start; color: #000000; cursor: default;font-weight: 700;">
+          • Uno: Em Uno, as cartas podem ser jogadas em sequências ou de acordo com o valor correspondente. Em nosso
+          jogo, as cartas também têm um valor (de 1 a 5), e os jogadores podem usar estratégias de troca de cartas ou
+          bloqueio para impedir que os outros jogadores ganhem pontos rapidamente.
+        </p>
+        <a href="https://www.bauru.unesp.br/Home/Div.Tec.Biblioteca/bd-manual-uno.pdf" target="_blank">Jogo Uno</a>
+      </div>
+    </div>
+
+    <div style="width: 100%; height: 100%;text-align: center;">
+      <span >Desenvolvido por: Winnye Dandhara Souza</span>
+    </div>
+  </div>
+</body>
+
+</html>

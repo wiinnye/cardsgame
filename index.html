@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design Cartas</title>
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <script>
+    function mudarTela() {
+      window.location.href = 'regraJogo.html';
+    }
+  </script>
+</head>
+
+<body style="background-color: #fff; text-align: center">
+
+  <!-- Descrição-->
+  <div class="div_titulo">
+    <h3 style="font-size: 90px">O Jogo de Cartas</h3>
+  </div>
+  <!-- Menu -->
+  <div class="menu_header">
+    <table class="menu_header_table">
+      <tr>
+        <th style="width: 10%; cursor: pointer" onclick="mudarTela()">Regra do Jogo</th>
+        <th style="width: 10%; cursor: pointer" onclick="mudarTela()">Informação do Jogo</th>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Cards basicos -->
+  <div class="container_cards">
+    <h3 style="width: 100%;font-size: 60px; background-color:#94aec4;padding: 10px;">Cards Básicos</h3>
+    <div class="div_cards">
+      <table>
+        <tr>
+          <td>
+            <img src="/images/Trabalho_Cards_normais (1).jpg" alt="cards_normais" style="width: 500px; height: 700px" />
+          </td>
+          <td>
+            <img src="/images/Trabalho_Cards_Normais (2).jpg" alt="cards_normais(2)"
+              style="width: 500px; height: 700px" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="div_juntar">
+      <!-- Cards Especial -->
+      <div class="div_especial">
+        <h3 style="width: 100%;font-size: 60px;background-color:#94aec4;padding: 10px;">Cards Especial</h3>
+        <table>
+          <tr>
+            <td>
+              <img src="/images/cards_especiais.png" alt="cards_especiais" style="width: 500px; height: 700px" />
+            </td>
+          </tr>
+        </table>
+        <h3 style="width: 100%;font-size: 60px;background-color:#94aec4">Cards Suportes</h3>
+        <table>
+          <tr>
+            <td>
+              <img src="/images/cards_suportes.png" alt="suportes" style="width: 500px; height: 800px" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
